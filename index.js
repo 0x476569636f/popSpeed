@@ -9,7 +9,7 @@ function increaseScore(){
 }
 
 addEventListener("mousedown", function(){
-    increaseScore()
+    increaseScore();
     img.src = "./src/mangap.png";
     audio.play();
 });
@@ -20,6 +20,7 @@ addEventListener("mouseup", function(){
 });
 
 addEventListener("touchstart", function(){
+    increaseScore();
     img.src = "./src/mangap.png"
     audio.play();
 });
