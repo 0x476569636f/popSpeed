@@ -28,6 +28,7 @@ h1{
 }
 
 #score{
+    margin-top: 5px;
     font-size: 4em;
     font-family: Nunito, sans-serif;
     -webkit-text-stroke: 2px black;
